@@ -1,7 +1,7 @@
 # Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019
 
-Challenge acronym:LVQuan19
-Challenge description:
+#Challenge acronym:LVQuan19
+#Challenge description:
 This challenge is an extension of Left Ventricle Full Quantification Challenge
 MICCAI 2018 (LVQuan18), the main difference is that this challenge (LVQuan19)
 will provide original data without preprocessing for training and testing phases,
