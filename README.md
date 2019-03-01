@@ -2,6 +2,10 @@
 
 ## Attention! This page is a temporary page for demonstrating challenge information, this chanllenge may start in early April, and the official  website will online in that time.
 
+## Traning data release:
+Baidu pan：https://pan.baidu.com/s/1K-tZCZc1t0utKzCrCl7VsQ 
+password：ulsi 
+
 ## Challenge acronym: LVQuan19
 
 ## Challenge description:
@@ -44,5 +48,6 @@ Error Rate (ER) for task of cardiac phase between the estimated values and the r
 If you want to know more details, please search the website and read the reference papers: https://lvquan18.github.io/.
 ## Reference:
 [1]. Wufeng Xue, Gary Brahm, Sachin Pandey, Stephanie Leung, and Shuo Li. "Full left ventricle quantification via deep multitask relationships learning." Medical Image Analysis 43 (2018): 54-65.
+
 [2]. Wufeng Xue, Andrea Lum, Ashley Mercado, Mark Landis, James Warrington, and Shuo Li. "Full Quantification of Left Ventricle via Deep Multitask Learning Network Respecting Intra-and Inter-Task Relatedness." MICCAI, 2017.
 
