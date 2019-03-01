@@ -10,3 +10,34 @@ This challenge is an extension of Left Ventricle Full Quantification Challenge M
 Key expected outcome of the challenge:
   
   Learn effective machine learning models that can estimate a set of clinical significant LV indices (regional wall thicknesses, cavity dimensions, area of cavity and myocardium, cardiac phase) directly from MR images.
+  
+Data Acquirement:
+
+The DIG-Cardiac database consists of 56 cine-MRI images collected from 3 hospitals affiliated with two health care centers (London Healthcare Center and St. Josephs HealthCare). The subjects age from 16 yrs to 97 yrs, with average of 58.9 yrs. The pixel spacings of the MR images range from 0.6836 mm/pixel to 2.0833 mm/pixel, with mode of 1.5625 mm/pixel. Diverse pathologies are in presence including regional wall motion abnormalities, myocardial hypertrophy, mildly enlarged LV, atrial septal defect, LV dysfunction, etc. Each subject contains nF = 20 frames throughout a cardiac cycle. In each frame, LV is divided into equal thirds (basal, mid-cavity, and apical) perpendicular to the long axis of the heart following the standard AHA prescription and a representative mid-cavity slice is selected for this database.
+Ground truth:
+Besides the epicardium and endocardium contour obtained through the above procedure, quantification results of LV are also provided, as shown in Figure 1. These quantifications include: areas of the myocardium and LV cavity, three directional LV cavity dimensions, six regional wall thicknesses, and one cardiac phase.
+
+Figure 2. Demonstration of the cardiac indices considered in the database. (a) area of myocardium and LV 
+cavity. (b) Three LV cavity dimension. (c) Regional wall thickness. (d) Cardiac phase.
+Training data description:
+
+  Number of training cases: 56 2D SAX sequences with a total of 1120 images
+  Characteristics of training cases:Pixel level segmentation of the myocardium and values of the LV indices
+  (regional wall thickness, dimension, area, phase) for each image.
+  Annotation policy for training cases:Delineation of the inner and outer boundary of myocardium for each frame of the
+SAX sequences, with papillary muscle excluded.
+  Annotators of training data: The inner and outer contours of myocardium were delineated by one experienced engineer in medical imaging and double checked by two cardiac radiologists with more than 10 years experiences.
+
+Test data description:
+  600 images from 30 subjects(other details are similar to training data).
+
+Evaluation metrics:
+Mean Absolute Error (MAE) for tasks of regional wall thicknesses, dimensions,and areas between estimated values and reference values.
+Pearson Correlation Coefficient (PCC) for tasks of regional wall thicknesses,dimensions, and area between estimated values and reference values.
+Error Rate (ER) for task of cardiac phase between the estimated values and the reference values.
+
+If you want to know more details, please search the website: https://lvquan18.github.io/.
+Reference:
+[1]. Wufeng Xue, Gary Brahm, Sachin Pandey, Stephanie Leung, and Shuo Li. "Full left ventricle quantification via deep multitask relationships learning." Medical Image Analysis 43 (2018): 54-65.
+[2]. Wufeng Xue, Andrea Lum, Ashley Mercado, Mark Landis, James Warrington, and Shuo Li. "Full Quantification of Left Ventricle via Deep Multitask Learning Network Respecting Intra-and Inter-Task Relatedness." MICCAI, 2017.
+
