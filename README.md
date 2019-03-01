@@ -1,5 +1,7 @@
 # Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019
 
+## Attention! This page is a temporary page for demonstrating challenge information, this chanllenge may start in early April, and the official  website will online in that time.
+
 ## Challenge acronym: LVQuan19
 
 ## Challenge description:
