@@ -5,6 +5,7 @@
 ## Traning data release:
 Baidu pan：https://pan.baidu.com/s/1K-tZCZc1t0utKzCrCl7VsQ 
 password：ulsi 
+Google Drive:https://drive.google.com/open?id=1GfcsCAO6aS4Dxq-AMssRlX68tDgtGruE
 
 ## Challenge acronym: LVQuan19
 
@@ -25,7 +26,7 @@ The DIG-Cardiac database consists of 56 cine-MRI images collected from 3 hospita
 
 Besides the epicardium and endocardium contour obtained through the above procedure, quantification results of LV are also provided, as shown in Figure 1. These quantifications include: areas of the myocardium and LV cavity, three directional LV cavity dimensions, six regional wall thicknesses, and one cardiac phase.
 ![image](https://github.com/TiancongHua/Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019/blob/master/LVQuan19.png)
-Figure 2. Demonstration of the cardiac indices considered in the database. (a) area of myocardium and LV 
+Figure 1. Demonstration of the cardiac indices considered in the database. (a) area of myocardium and LV 
 cavity. (b) Three LV cavity dimension. (c) Regional wall thickness. (d) Cardiac phase.
 
 ## Training data description:
