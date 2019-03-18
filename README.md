@@ -1,6 +1,8 @@
 # Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019
 
-## Attention! This page is a temporary page for demonstrating challenge information, this chanllenge may start in early April, and the official  website will online in that time.
+## Attention! This page is a temporary page for demonstrating challenge information, this chanllenge may start in early April.
+
+##Offical challenge website: https://lvquan19.github.io/.
 
 ## Traning data release:
 Baidu pan：https://pan.baidu.com/s/1K-tZCZc1t0utKzCrCl7VsQ 
